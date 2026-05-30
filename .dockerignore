@@ -1,0 +1,15 @@
+node_modules
+dist
+.git
+.vercel
+.DS_Store
+*.log
+*.local
+.vscode
+.idea
+Dockerfile*
+docker-compose*
+Jenkinsfile
+vercel.json
+nginx.conf
+README.md
