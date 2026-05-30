@@ -63,7 +63,7 @@ const BillingForm = ({ onCancel, onSave }: BillingFormProps) => {
 
   return (
     <div className="billing-form">
-      <h1 className="billing-form__title">Review your details 1223333</h1>
+      <h1 className="billing-form__title">Review your details</h1>
 
       <section className="billing-form__section">
         <h2 className="billing-form__section-title">Billing Information</h2>
