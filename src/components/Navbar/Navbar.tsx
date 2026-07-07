@@ -1,4 +1,5 @@
 import {  useCallback, useState } from 'react'
+import { Link } from 'react-router-dom'
 import './Navbar.css'
 import Icon from '../ui/Icon'
 
@@ -54,9 +55,9 @@ const Navbar = () => {
             Create Campaign
           </button>
 
-          <button className="navbar__avatar" type="button" aria-label="User profile">
+          <Link className="navbar__avatar" to="/profile" aria-label="User profile">
             <Icon name='user' size={20} color='white' />
-          </button>
+          </Link>
 
           <button className="navbar__menu" type="button" aria-label="Open menu">
             <Icon name='menu' size={20} color='#374151' />
